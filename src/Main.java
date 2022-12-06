@@ -37,7 +37,7 @@ public class Main {
         – При изменении содержания строки результат программы выполняется.
         – Результат программы выведен в консоль согласно условиям задачи.
         */
-        String fullName1 = "Ёжиков Семён Семёнович";
+        String fullName1 = "Иванов Семён Семёнович";
         String fullName2=fullName1.replace('ё','е');
         String fullName3=fullName2.replace('Ё','Е');
         System.out.println("Данные ФИО сотрудника — ..."+fullName3);
